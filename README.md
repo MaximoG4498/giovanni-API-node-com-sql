@@ -53,7 +53,7 @@ O servidor estará rodando em: `http://localhost:3002`
 
 ---
 
-## 📌 Rotas da API
+## Rotas da API
 
 | Método | Rota | Descrição |
 |---|---|---|

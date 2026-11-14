@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
 
 -- Inserções de exemplo
 INSERT INTO usuarios (nome, email) VALUES
-('Giovanni Barreto', 'giovanni@example.com'),
-('Maria Oliveira', 'maria@example.com'),
-('João Santos', 'joao@example.com')
+('Giovanni Barreto', 'giovanni@gmail.com'),
+('Maria Oliveira', 'maria@gmail.com'),
+('João Santos', 'joao@gmail.com')
 ON DUPLICATE KEY UPDATE nome = VALUES(nome);
